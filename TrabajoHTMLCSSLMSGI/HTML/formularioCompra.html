@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="../CSS/formularioCompra.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="icono">
+        <a href="../HTML/listadoCoches.html" <i class="fas fa-undo-alt"></i><a />
+    </div>
+
+    <div class="container-form">
+        <div class="formulario">
+            <form>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" placeholder="Introduzca su nombre" name="fname" required><br>
+
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" placeholder="Introduzca sus apellidos" name="lname" required><br>
+
+                <label for="localidad">Localidad:</label><br>
+                <input type="text" id="localidad" placeholder="Introduzca su localidad" name="localidad" required><br>
+
+                <label for="cp">Código Postal:</label><br>
+                <input type="text" id="cp" placeholder="Introduzca su codigo postal" name="cp" pattern="[0-9]{5}"
+                    title="Debe ser un código postal de 5 dígitos" required><br>
+
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" placeholder="Introduzca su correo" name="correo" required><br>
+
+                <label for="tel">Número de Teléfono:</label><br>
+                <input type="tel" id="tel" placeholder="Introduzca su telefono" name="tel" pattern="[0-9]{9}"
+                    title="Debe ser un número de 9 dígitos" required><br>
+
+                <label
+                    for="dni">DNI:</label><br><!--Para especificar los caracteres que tiene que tener el campo, se usa "pattern="Y los caracteres/numeros""-->
+                <input type="text" id="dni" placeholder="Introduzca su DNI" name="dni" pattern="[0-9]{8}[A-Za-z]"
+                    title="Debe ser un DNI válido con 8 números y una letra" required><br>
+
+                <!--Para que el boton se quede a la izquierda, se tiene que poner primero el input y luego el label-->
+                <p class="textoFormulario">¿Cómo descubriste Automotion?</p>
+                <input type="radio" id="internet" name="where" value="Internet">
+                <label for="internet">Internet</label><br>
+
+                <input type="radio" id="redes" name="where" value="Redes Sociales">
+                <label for="redes">Redes Sociales</label><br>
+
+                <input type="radio" id="revista" name="where" value="Revista">
+                <label for="revista">Una Revista</label><br>
+
+                <input type="radio" id="ninguno" name="where" value="Revista">
+                <label for="revista">Ninguno de los anteriores</label><br> <br>
+
+                <label for="duracion">Duración de la financiación:</label><br>
+                <select id="duracion" name="duracion" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="noFinanciacion">Sin financiacion</option>
+                    <option value="-2 años">Menos de 2 años</option>
+                    <option value="2 años">2 años</option>
+                    <option value="4 años">4 años</option>
+                    <option value="6 años">6 años</option>
+                    <option value="+6 años">Más de 6 años</option>
+                </select><br><br>
+
+                <input style="margin-bottom: 20px;" type="submit" id="submit" name="submit" value="Comprar">
+            </form>
+        </div>
+
+        <div class="imagen">
+            <img src="../img/AlbedoBase_XL_Create_a_clean_professional_image_of_a_car_showr_0.jpg">
+            <span>En Automotion, te ofrecemos una amplia variedad de coches que se ajustan a tus necesidades. Encuentra el vehículo perfecto con nosotros, con la garantía de calidad, confianza y comodidad en cada compra. Estamos aquí para ayudarte a dar el siguiente paso hacia tu coche ideal. ¡Descubre nuestras opciones y vive la experiencia Automotion!</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

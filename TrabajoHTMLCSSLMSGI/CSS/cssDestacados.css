@@ -1,0 +1,123 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #383838;
+    margin: 0;
+    padding: 0;
+}
+
+.coches-destacados {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.coches-destacados h2 {
+    font-size: 28px;
+    color: #383838;
+    margin-bottom: 20px;
+}
+
+.coche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.coche img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.detalle-coche {
+    padding: 20px;
+    text-align: left;
+}
+
+.detalle-coche h3 {
+    font-size: 24px;
+    color: #383838;
+    margin-bottom: 10px;
+}
+
+.detalle-coche p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #6b6969;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a2a2a2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #868686;
+    transform: scale(1.05);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+.fas {
+    font-size: 50px;
+    text-decoration: none;
+    color: #616161;
+    transition: color 0.3s;
+}
+
+.fas:hover {
+    color: #005fa3;
+}
+
+.icono {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    transition: 300ms;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+
+.icono a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    color: #0077cc;
+    cursor: pointer;
+}

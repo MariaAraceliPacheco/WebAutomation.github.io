@@ -1,0 +1,140 @@
+body {
+    background-color: #ece9e9;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, h2{
+    text-align: center;
+    color: #333;
+}
+
+.contact-info {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.formulario {
+    background-color: rgba(200, 200, 200, 0.8);
+    border: 2px solid #a2a2a2;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.formulario input[type="text"], 
+.formulario input[type="email"], 
+.formulario textarea {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d1d1d1;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+textarea::placeholder {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.formulario input[type="text"]:hover, 
+.formulario input[type="email"]:hover, 
+.formulario textarea:hover {
+    box-shadow: 5px 5px 5px rgb(177, 176, 176);
+    
+
+}
+
+.formulario input[type="text"]:focus, 
+.formulario input[type="email"]:focus, 
+.formulario textarea:focus {
+    border-color: #888888;
+    box-shadow: 5px 5px 10px grey;
+    outline: none;
+}
+
+.formulario input[type="submit"], 
+.formulario button {
+    padding: 15px;
+    margin: 20px auto;
+    width: 100%;
+    display: block;
+    background-color: #a2a2a2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario input[type="submit"]:hover, 
+.formulario button:hover {
+    background-color: #868686;
+    transform: scale(1.02);
+}
+
+.fas {
+    font-size: 50px;
+    text-decoration: none;
+    color: #616161;
+    transition: color 0.3s;
+}
+
+.fas:hover {
+    color: #005fa3;
+}
+
+.icono {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    transition: 300ms;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.icono a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    color: #0077cc;
+    cursor: pointer;
+}

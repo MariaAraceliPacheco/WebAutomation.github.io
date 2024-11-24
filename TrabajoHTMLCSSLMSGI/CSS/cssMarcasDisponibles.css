@@ -1,0 +1,127 @@
+body {
+    background-color: #c7c5c5;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container img {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    margin-top: 1px;
+
+}
+
+.tabla tr td img {
+    transition: 333ms;
+    border: 2px solid rgb(97, 95, 95);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 10px;
+}
+
+.tabla tr td img:hover {
+    transform: scale(1.1);
+}
+
+.tabla tr td {
+    background: linear-gradient(rgb(210, 210, 210), rgb(240, 240, 240));
+    transition: 300ms;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabla tr td:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    background: linear-gradient(rgb(230, 230, 230), rgb(250, 250, 250));
+}
+
+.tabla tr td p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    color: #444;
+}
+
+.tabla,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.tabla {
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+
+}
+
+.titulo {
+    background-color: white;
+    border: solid grey 2px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+
+
+
+/*icono*/
+.fas {
+    font-size: 50px;
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s;
+}
+
+.fas:hover {
+    color: #005fa3;
+}
+
+.icono {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    position: fixed;
+    bottom: 10px;
+    transition: 333ms;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icono a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    color: #0077cc;
+    cursor: pointer;
+}
