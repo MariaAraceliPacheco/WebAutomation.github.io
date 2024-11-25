@@ -4,6 +4,7 @@ body {
     color: #383838;
     margin: 0;
     padding: 0;
+    /* Configuración básica del cuerpo */
 }
 
 .coches-destacados {
@@ -11,12 +12,14 @@ body {
     background-color: #e0e0e0;
     padding: 40px 0;
     margin-top: 20px;
+    /* Sección destacada de coches */
 }
 
 .coches-destacados h2 {
     font-size: 28px;
     color: #383838;
     margin-bottom: 20px;
+    /* Estilos del encabezado de la sección */
 }
 
 .coche {
@@ -29,6 +32,7 @@ body {
     overflow: hidden;
     max-width: 1000px;
     margin: 0 auto;
+    /* Estilo de los contenedores de coches */
 }
 
 .coche img {
@@ -37,17 +41,20 @@ body {
     object-fit: cover;
     border-radius: 8px;
     margin-left: 10px;
+    /* Estilo de las imágenes de coches */
 }
 
 .detalle-coche {
     padding: 20px;
     text-align: left;
+    /* Detalles del coche con padding */
 }
 
 .detalle-coche h3 {
     font-size: 24px;
     color: #383838;
     margin-bottom: 10px;
+    /* Encabezado de los detalles del coche */
 }
 
 .detalle-coche p {
@@ -66,6 +73,7 @@ button {
     font-size: 16px;
     margin-top: 20px;
     transition: 0.3s;
+    /* Estilo de los botones */
 }
 
 button:hover {
@@ -75,10 +83,8 @@ button:hover {
 
 .bold {
     font-weight: bold;
+    /* Texto en negrita */
 }
-
-
-
 
 .fas {
     font-size: 50px;
@@ -103,9 +109,8 @@ button:hover {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    /* Icono flotante con sombra y posición fija */
 }
-
-
 
 .icono a {
     color: inherit;

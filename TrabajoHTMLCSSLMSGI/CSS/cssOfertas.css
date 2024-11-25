@@ -1,6 +1,7 @@
 body {
     background-color: #c7c5c5;
     font-family: 'Roboto', Arial, sans-serif;
+    /* Fuente predeterminada del cuerpo */
 }
 
 header {
@@ -18,13 +19,13 @@ header {
     width: 80%;
     margin: 0 auto 20px auto;
     box-shadow: 4px 4px 4px rgb(172, 171, 171);
+    /* Sombra alrededor del header */
 }
 
 .black {
     color: #d40505;
     width: 80%;
 }
-
 
 .motivos {
     background-color: #d3d0d0;
@@ -34,7 +35,6 @@ header {
     border-radius: 5px;
     width: 80%;
     margin: auto;
-
 }
 
 .motivos h1 {
@@ -44,6 +44,7 @@ header {
 .antiguo {
     text-decoration: line-through;
     color: #555;
+    /* Texto tachado y en gris */
 }
 
 .nuevo {
@@ -75,13 +76,13 @@ header {
 .motivos ol li {
     font-size: 20px;
     margin-left: 20px;
-    
 }
 
 .imagen {
     display: flex;
     justify-content: center;
-    align-content: center;  
+    align-content: center;
+    /* Centrar contenido */
 }
 
 .bold {
@@ -93,6 +94,7 @@ header {
     margin: 20px;
     background-color: #d3d0d0;
     box-shadow: 5px 4px 8px rgb(172, 172, 172);
+    /* Sombra alrededor de la tabla */
 }
 
 .imagen td p {
@@ -113,7 +115,7 @@ header {
     border-radius: 5px;
 }
 
-.imagen td:last-child { /*Selecciona el ultimo td*/
+.imagen td:last-child {
     border-bottom: none;
 }
 
@@ -146,10 +148,12 @@ header {
     text-decoration: none;
     color: #616161;
     transition: color 0.3s;
+    /* Transición de color suave */
 }
 
 .fas:hover {
     color: #005fa3;
+    /* Cambio de color al pasar el cursor */
 }
 
 .icono {
@@ -164,6 +168,7 @@ header {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    /* Icono siempre visible en la parte superior */
 }
 
 .icono a {
@@ -177,6 +182,7 @@ header {
 .icono:hover {
     background-color: rgba(255, 255, 255, 1);
     transform: scale(1.1);
+    /* Aumenta el tamaño del icono al pasar el cursor */
     color: #0077cc;
     cursor: pointer;
 }

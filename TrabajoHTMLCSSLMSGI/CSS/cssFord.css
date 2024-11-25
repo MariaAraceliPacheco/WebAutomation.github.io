@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     text-align: center;
     padding: 20px;
+    /* Fondo claro y centrado, con padding */
 }
 
 h1 {
@@ -10,16 +11,17 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    /* Estilo del título principal */
 }
 
 h1 span {
     font-weight: bold;
 }
 
-
 table {
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra alrededor de la tabla */
 }
 
 table tr td {
@@ -30,13 +32,15 @@ table tr td {
     font-size: 16px;
     text-align: left;
     color: #333;
+    /* Estilos para las celdas de la tabla */
 }
 
 table tr:nth-child(even) {
     background-color: #f9f9f9;
+    /* Fondo alterno para filas pares */
 }
 
-.formulario a{
+.formulario a {
     background-color: rgb(153, 152, 152);
     color: white;
     text-decoration: none;
@@ -48,11 +52,12 @@ table tr:nth-child(even) {
     transition: background-color 0.3s ease;
     margin-top: 10px;
     transition: 300ms;
+    /* Estilo de los enlaces en el formulario */
 }
 
 .formulario a:hover {
     background-color: #5f5e5e;
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .bold {
@@ -66,8 +71,8 @@ table tr:nth-child(even) {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     text-align: center;
+    /* Estilos de la imagen con fondo degradado */
 }
-
 
 .fas {
     font-size: 50px;
@@ -92,6 +97,7 @@ table tr:nth-child(even) {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    /* Estilo del icono con sombra y posición fija */
 }
 
 .icono a {
@@ -115,4 +121,5 @@ table td img {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Estilos para imágenes dentro de las celdas de la tabla */
 }

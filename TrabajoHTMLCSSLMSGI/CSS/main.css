@@ -1,7 +1,7 @@
 body {
     background-color: #c7c5c5;
     font-family: 'Roboto', Arial, sans-serif;
-    text-align: center;
+    text-align: center; /* Centra el texto en el body */
 }
 
 .menuSuperior {
@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     border-bottom: 2px rgb(105, 105, 105) solid;
-    padding-bottom: 20px;
+    padding-bottom: 20px; /* Espaciado debajo del menú */
 }
 
 .menuSuperior ul {
@@ -17,7 +17,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 5px; /* Bordes redondeados para el menú */
 }
 
 .menuSuperior li {
@@ -25,7 +25,7 @@ body {
 }
 
 .menuSuperior li a {
-    text-decoration: none;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: #ffffff;
     font-weight: bold;
     display: block;
@@ -33,19 +33,19 @@ body {
     text-align: center;
     border-radius: 5px;
     border: 1px solid #C0C0C0;
-    transition: 333ms;
+    transition: 333ms; /* Transición suave para el hover */
     align-items: center;
     background-color: #7D7D7D;
 }
 
 .menuSuperior li a li {
     margin-right: 8px;
-    font-size: 18px;
+    font-size: 18px; /* Tamaño de fuente para ítems internos */
 }
 
 .menuSuperior a:hover {
     background-color: #5F5F5F;
-    transform: scale(1.1);
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
 }
 
 .tabla {
@@ -54,7 +54,7 @@ body {
     margin-top: 60px;
 }
 
-/*Modificacion de la tabla*/
+/* Modificacion de la tabla */
 .tabla table,
 tr,
 td {
@@ -81,10 +81,10 @@ td {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5px; /* Bordes redondeados de los encabezados */
     border: 2px solid #C0C0C0;
     box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.1);
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* Espaciado entre letras */
 }
 
 .boton {
@@ -102,12 +102,12 @@ td {
     border: 1px solid #C0C0C0;
     transition: 333ms;
     align-items: center;
-    box-shadow: 7px 8px 8px #5f5f5f;
+    box-shadow: 7px 8px 8px #5f5f5f; /* Sombra para destacar el botón */
 }
 
 .boton:hover {
     background-color: #616060;
-    transform: scale(1.1);
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
 }
 
 .testimonios {
@@ -120,7 +120,7 @@ td {
     padding: 15px;
     margin: 10px auto;
     width: 80%;
-    border-radius: 5px;
+    border-radius: 5px; /* Bordes redondeados para testimonios */
 }
 
 .testimonio span {
